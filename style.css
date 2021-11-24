@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400&display=swap');
+
+
+:root {
+    --primary-color: black;
+    --secondary-color: #2F2E41;
+    --gray: #F3F4F6;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0px;
+    color: var(--secondary-color);
+}
+
+.marks {
+    font-size: small;
+    border:
+        #2F2E41 solid 1px;
+    padding: 5px;
+    border-radius: 0.5rem;
+
+}
+
+.name {
+    color: #346773;
+}
+
+hr {
+    margin: 2rem 0rem;
+}
+
+.container {
+    padding: 0rem 1rem;
+
+}
+
+.centre-container {
+    margin: auto;
+    max-width: 600px;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition :  all 0.5s;
+}
+.link :hover{
+    transform: scale(1.1);
+}
+
+.primary-link {
+    background-color: var(--primary-color);
+    color:greenyellow;
+    border-radius: 0.7rem;
+}
+
+.secondary-link {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 0.7rem;
+
+}
+
+.non-bullet-list {
+    list-style: none;
+}
+
+.inline-list-item {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+
+.navigation {
+    background-color: var(--primary-color);
+    color: greenyellow;
+    border-bottom-left-radius: 1rem;
+    padding: 1rem;
+}
+
+.navigation .link {
+    color: whitesmoke;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+.hero {
+    padding: 1.5rem;
+}
+
+.hero .hero-image {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-head {
+    padding-top: 1rem;
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+.date{
+    font-size: small;
+}
+
+.hero .hero-head .hero-head-focus {
+    color: #346773;
+
+}
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.gray {
+    background-color: var(--gray);
+}
+
+footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: goldenrod;
+    border-top-right-radius: 1rem;
+}
+
+.footer .footer-head {
+    font-weight: bold;
+}
+
+
+.link-foot {
+    color: white;
+    font-size: 2rem;
+}
+
+.link-app {
+    color: var(--primary-color);
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+
+.footer ul {
+    padding-inline-start: 0px;
+
+}
